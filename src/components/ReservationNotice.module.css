@@ -1,0 +1,59 @@
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(80%);
+}
+.modal {
+  width: 270px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 25px;
+}
+.price {
+  font-weight: 700;
+  margin-top: 20px;
+}
+.pricecontent {
+  text-align: center;
+  color: #ff0000;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.content {
+  font-size: 12px;
+  line-height: 1.7;
+}
+.content1 {
+  margin-top: 30px;
+  font-size: 12px;
+  line-height: 1.7;
+}
+h3 {
+  font-size: 16px;
+  line-height: 0.1;
+}
+button {
+  display: block;
+  margin: auto;
+  width: 270px;
+  height: 40px;
+  background-color: black;
+  color: #fff;
+  font-family: "pretendard";
+  border-radius: 15px;
+  border: none;
+}
+.buttonCancle {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  font-weight: 700;
+}

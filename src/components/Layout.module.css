@@ -1,0 +1,68 @@
+@charset "utf-8";
+.wrapper {
+  background-color: black;
+  width: 393px;
+  height: 852px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50px;
+  margin: 50px auto;
+  font-family: "pretendard", -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto,
+    "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+.container {
+  width: 363px;
+  height: 822px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.title {
+  cursor: pointer;
+  font-size: 16px;
+  padding-top: 10px;
+  text-align: center;
+}
+.line {
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #000;
+  margin: 12px auto;
+}
+.text {
+  font-weight: 700;
+  font-size: 12px;
+  padding-left: 10px;
+  line-height: 1.7;
+}
+.textad {
+  display: block;
+  font-weight: 400;
+}
+.sejin {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.flexwrapper {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.01),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.02),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.025),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.03),
+    100px 100px 80px rgba(0, 0, 0, 0.04);
+  margin-bottom: 40px;
+}
+.font {
+  font-family: "pretendard";
+}

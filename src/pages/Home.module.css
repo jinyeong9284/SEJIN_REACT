@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.parkingLot {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  margin: auto;
+}
+.status {
+  margin-top: 150px;
+}
