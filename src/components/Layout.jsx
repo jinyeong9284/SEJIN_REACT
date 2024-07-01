@@ -26,6 +26,9 @@ function Layout({ children }) {
           </p>
         </div>
         <main>{children}</main>
+        <div className={style.choice}>
+          <p>주차구역을 선택해주세요</p>
+        </div>
       </div>
     </section>
   );

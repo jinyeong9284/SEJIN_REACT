@@ -66,3 +66,15 @@
 .font {
   font-family: "pretendard";
 }
+.choice {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #eee;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
